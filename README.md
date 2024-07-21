@@ -8,5 +8,11 @@ A tmux plugin for session management with fzf
 - `fzf`
 - `python3`
 
+## Install
+### Using `tpm`
+```
+set -g @plugin 'will-lynas/tmux-finder'
+```
+
 ## Usage
 Keybind: `prefix + v`
