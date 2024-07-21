@@ -10,7 +10,7 @@ A tmux plugin for session management with fzf
 
 ## Install
 ### Using `tpm`
-```
+```tmux
 set -g @plugin 'will-lynas/tmux-finder'
 ```
 
