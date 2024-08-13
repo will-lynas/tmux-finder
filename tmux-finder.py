@@ -75,7 +75,8 @@ def pad_and_join(lines):
 def do_fzf(lines):
     joined_lines = pad_and_join(lines)
     script_path = sys.argv[0]
-    options = (f"--ansi "
+    options = ("--ansi "
+               "--cycle "
                f"--preview='{script_path} {{}}'  "
                "--preview-window=right,wrap "
                "--height=100 "
